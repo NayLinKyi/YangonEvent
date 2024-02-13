@@ -1,0 +1,88 @@
+.mainHeader{
+    font-family: 'Courier New';
+    color: yellow;
+    text-shadow: 1px 1px 3px red;
+}
+
+header{
+    position: relative;
+    background-image: url(https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt908c86dfe9a4a9bf/5fad8409bfc5dd718865bcbc/WR_Cityscape_Channel_Header_Thailand_FINAL.png);
+    height: 45vw;
+    background-attachment: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mainDiv{
+    top: 40%;
+    left: 40%;
+}
+
+
+#events{
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px -1px 0 #e7e7e7, 1px -1px 0 #e7e7e7, -1px 1px 0 #e7e7e7, 1px 1px 0 #e7e7e7;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+#esportEvent {
+    position: absolute;
+    font-size: 3vw;
+    color: #ba19ba;
+    text-shadow: none;
+    left: 35%;
+    bottom: 23%;
+}
+
+.imageLogo{
+    width: 50px;
+    height:50px;
+    background-color: black;
+
+}
+
+.flexLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+#sectionGrid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.textLogo{
+    font-family: 'Protest Strike';
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 10px 0 ;
+}
+
+.textDate2{
+    color: gray;
+    font-size: 20px;
+}
+
+.viewEvent{
+    border: 2px solid  #ba19ba;
+    padding: 10px 65px;
+    color: #ba19ba;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.viewEvent:hover{
+    color: white;
+    background-color: #ba19ba;
+}
+
+.eventDiv{
+    text-align: center;
+}
