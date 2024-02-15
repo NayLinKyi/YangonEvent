@@ -24,6 +24,9 @@ main{
     text-decoration: none;
     color: black;
 }
+.category:hover{
+    background-color: rgb(196, 196, 196);
+}
 .eventCategory{
     overflow: scroll;
     column-gap: 20px;
