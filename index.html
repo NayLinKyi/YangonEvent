@@ -15,19 +15,12 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
   <header class="text-bg-light">
-    <div class="d-flex flex-column fixed-top bg-light shadow mb-2">
-      <div class="d-flex justify-content-between p-2">
-        <h2 class="font text-center">Yangon Events</i></h2>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-      <nav class="navbar navbar-expand-lg mx-auto">
+    <div class="fixed-top bg-light shadow mb-2">
+      <nav class="navbar navbar-expand-lg mx-auto bg-body-tertiary">
         <div class="container-fluid">
-
+          <h2 class="font text-center name">Yangon Events</i></h2>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,26 +28,17 @@
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
             <ul class="navbar-nav h5">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home-a">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Events
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Esport</a></li>
-                  <li><a class="dropdown-item" href="#">Sports</a></li>
-                  <li><a class="dropdown-item" href="#">Music</a></li>
-                </ul>
-              </li>
+                <a class="nav-link" href="#events-a">Events</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#about-a">AboutUs</a>
               </li>
-
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-a">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -64,23 +48,23 @@
   </header>
 
   <main>
-    <section class="container-fluid">
+    <section id="home-a" class="container-fluid position-relative">
       <img class="img-fluid w-100 home-img"
         src="https://static.vecteezy.com/system/resources/thumbnails/024/234/201/small/elegant-golden-stage-horizontal-glowing-with-lighting-effect-sparkle-on-dark-background-template-premium-award-design-vector.jpg"
         alt="home-bg">
-      <div class="position-absolute top-50 start-50 w-50 h-25 translate-middle">
-        <div class="h3 text-white" style="text-align: center;">
+      <div class="position-absolute top-50 start-50 w-50 h-25 translate-middle text1">
+        <div class="h5s text-white" style="text-align: center;">
           <p class="pb-3 h1">Lorem ipsum</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         </div>
       </div>
     </section>
 
-    <section class="container-fluid mb-3">
-      <h2 class="text-center">Events Category</h2>
-      <div class="d-flex flex-row">
-        <a href="" class="col-3 border border-black border-2">
-          <img class="img-fluid bottomB" src="https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg"
+    <section id="events-a" class="container-fluid mb-3 pt-5">
+      <h3 class="text-center mb-5 large rise">Events Category</h3>
+      <div class="d-flex eventCategory">
+        <a href="" class="col-12 col-sm-4 border border-black border-2 category">
+          <img class="img-fluid bottomB w-100 h-50" src="https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg"
             alt="Sports">
           <div class="p-3">
             <h4 class="text-center">Sports Events</h4>
@@ -91,10 +75,51 @@
           </div>
         </a>
 
+        <a href="" class="col-12 col-sm-4 border border-black border-2 category">
+          <img class="img-fluid bottomB w-100 h-50" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQA5UeUjAXoDKFAEPagUNM77LH02y10GBDdw&usqp=CAU"
+            alt="Sports">
+          <div class="p-3">
+            <h4 class="text-center">Music Events</h4>
+            <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias eum sapiente facilis
+              nemo assumenda!
+              Explicabo, magnam illo? Quis alias reprehenderit quaerat, animi minus aut id, veniam, ducimus ex nobis
+              magnam.</p>
+          </div>
+        </a>
+
+        <a href="" class="col-12 col-sm-4 border border-black border-2 category">
+          <img class="img-fluid bottomB w-100 h-50" src="https://cdn.mos.cms.futurecdn.net/3UrmuKyTpK8TavGvEajuGP.jpg"
+            alt="Sports">
+          <div class="p-3">
+            <h4 class="text-center">Esports Events</h4>
+            <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias eum sapiente facilis
+              nemo assumenda!
+              Explicabo, magnam illo? Quis alias reprehenderit quaerat, animi minus aut id, veniam, ducimus ex nobis
+              magnam.</p>
+          </div>
+        </a>
+      </div>
+      
+    </section>
+
+    <section id="about-a" class="container-fluid mb-3 p-3 pt-5 border border-black border-3">
+      <h2 class="large rise text-center">About Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo accusantium, dignissimos magni consequuntur necessitatibus fugit! Numquam nulla, explicabo magni repellendus at nam? Cumque doloremque magni officiis eius tenetur enim minus!</p>
+      <div class="container text-bg-dark p-3 mb-2">
+        <h3>Advertise With Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta alias optio iure esse? Eius exercitationem laborum accusantium animi excepturi quam fuga modi explicabo ducimus. Harum rem explicabo exercitationem tempore ab!</p>
+      </div>
+      <div class="container text-bg-dark p-3 mb-2">
+        <h3>Get In Touch</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta alias optio iure esse? Eius exercitationem laborum accusantium animi excepturi quam fuga modi explicabo ducimus. Harum rem explicabo exercitationem tempore ab!</p>
+      </div>
+      <div class="container text-bg-dark p-3 mb-2">
+        <h3>Potal Address</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta alias optio iure esse? Eius exercitationem laborum accusantium animi excepturi quam fuga modi explicabo ducimus. Harum rem explicabo exercitationem tempore ab!</p>
       </div>
     </section>
   </main>
-  <footer class="container-fluid text-bg-dark p-3">
+  <footer id="contact-a" class="container-fluid text-bg-dark p-3">
     <div class="grid">
       <div class="row">
         <div class="col-md-4">
