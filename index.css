@@ -1,3 +1,67 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-image: url();
+}
+div.navbar-collapse{
+    flex-grow: 0;
+}
+main{
+    margin-top: 5%;
+}
+#main3{
+    margin-top: 4%;
+}
+.home-img{
+    position: relative;
+}
+.bottomB{
+    border-radius: 0 0 30% 30%;
+}
+.category{
+    text-decoration: none;
+    color: black;
+}
+.category:hover{
+    background-color: rgb(141, 141, 141) !important;
+}
+.eventCategory{
+    overflow: scroll;
+    column-gap: 20px;
+    scrollbar-color: gray  black;
+}
+.name{
+    font-family: 'Rocher';
+}
+
+.nav-link.active{
+	color: red !important;
+}
+
+@media screen and (max-width:920px) {
+	.text1{
+		top: 10% !important;
+		/* left: 25px !important; */
+	}
+}
+
+body{
+    background-image: repeating-linear-gradient(
+        45deg,
+       black,
+        black 25px,
+        #0a0a0a 25px,
+        #0a0a0a 50px
+   );
+   background-repeat: repeat;
+   background-attachment: cover;
+}
+
 .mainHeader{
     font-family: 'Courier New';
     color: yellow;
@@ -13,15 +77,37 @@
 
 .header2{
     position: relative;
+    background-image: url(https://cdn.vectorstock.com/i/preview-1x/83/42/dynamic-sport-or-gaming-background-vector-45748342.jpg);
+    height: 44vw;
+    background-attachment: cover;
+    background-size: 100%;
+    background-position: 0;
+    background-repeat: no-repeat;
+    
+}
+
+.header3{
+    position: relative;
+    background-image: url(https://scontent.frgn10-1.fna.fbcdn.net/v/t39.30808-6/326339791_1313083629256919_3221312610980122138_n.jpg?stp=dst-jpg_p640x640&_nc_cat=104&ccb=1-7&_nc_sid=783fdb&_nc_ohc=HydRu1DAecUAX8rXntD&_nc_ht=scontent.frgn10-1.fna&oh=00_AfA4Uzpy2tN2OwjygsvpO1kx11LtHXCk9yWU6iI3sdVz1g&oe=65D22298);
+    height: 44vw;
+    background-attachment: cover;
+    background-size: 100%;
+    background-position: 0;
+    background-repeat: no-repeat;
+    
+}
+
+.header4{
+    position: relative;
     background-image: url(https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt908c86dfe9a4a9bf/5fad8409bfc5dd718865bcbc/WR_Cityscape_Channel_Header_Thailand_FINAL.png);
     height: 44vw;
     background-attachment: cover;
     background-size: 100%;
     background-position: 0;
     background-repeat: no-repeat;
-   margin-top: 5%;
     
 }
+
 
 .mainDiv{
     top: 40%;
@@ -38,16 +124,23 @@
     position: relative;
     left: 0;
     right: 0;
-    margin-bottom: 70px;
 }
 
-#esportEvent {
+#esportEvent,#categoryEvent,#aboutEvent{
     position: absolute;
     font-size: 3vw;
     color: #ffc200;
     text-shadow: none;
     left: 35%;
     bottom: 23%;
+}
+
+#categoryEvent{
+    left: 45%;
+}
+
+#aboutEvent{
+    left: 43%;
 }
 
 .imageLogo{
@@ -104,6 +197,11 @@
     height: 600px;
 }
 
+.eventDiv1{
+    text-align: center;
+    height: 600px;
+}
+
 .positionDiv2{
     position: relative;
 
@@ -118,23 +216,9 @@
 }
 
 
-
-.forBG{
-    background-image: repeating-linear-gradient(
-        45deg,
-       black,
-        black 25px,
-        #0a0a0a 25px,
-        #0a0a0a 50px
-   );
-   background-repeat: repeat;
-   background-attachment: cover;
-   padding-bottom: 100px;
-}
-
 .eventImage{
     width: 100%;
-    height: auto;
+    height: 240px;
 }
 
 .text{
@@ -144,6 +228,22 @@
 .textDiv{
     padding: 20px;
 }
+
+.faqLink{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.faqLink:hover{
+    color: gold !important;
+}
+
+
+.h1gold{
+    color: gold !important;
+}
+
+
 
 @media screen and (max-width:1030px){
     #sectionGrid{
@@ -169,5 +269,16 @@
 
     .header2{
         margin-top: 20%;
+    }
+
+    #esportEvent,#categoryEvent,#aboutEvent{
+        bottom: 10%;
+        font-size: 5vw;
+        left: 40%;
+    }
+
+
+    #aboutEvent{
+        left: 37%;
     }
 }
