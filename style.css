@@ -209,7 +209,7 @@ body{
 
 .eventDiv1{
     text-align: center;
-    height: 600px;
+    height: 630px;
 }
 
 .positionDiv2{
@@ -278,7 +278,7 @@ p{
         margin-top: 10%;
     }
 
-    .eventDiv{
+    .eventDiv,.eventDiv1{
         height: 700px;
     }
 }
