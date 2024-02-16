@@ -252,7 +252,18 @@ body{
     color: gold !important;
 }
 
+.mapDiv{
+    height: 100vh;
+}
 
+.mapDetail{
+    top: 15%;
+    right: 50px;
+}
+
+p{
+    font-size: 16px;
+}
 
 @media screen and (max-width:1030px){
     #sectionGrid{
@@ -291,3 +302,4 @@ body{
         left: 37%;
     }
 }
+
