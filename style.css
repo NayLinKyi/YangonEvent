@@ -56,7 +56,6 @@ main{
 		top: 10% !important;
 		/* left: 25px !important; */
 	}
-
 }
 
 body{
@@ -289,6 +288,10 @@ p{
         grid-template-columns: 90%;
     }
 
+    .home-img{
+        height: 300px !important;
+    }
+
     .mainHeader{
         font-size: 16px;
     }
@@ -299,6 +302,7 @@ p{
 
     #categoryEvent,#aboutEvent{
         bottom: 10%;
+        margin-bottom: 10px;
         font-size: 5vw;
         left: 40%;
     }
@@ -315,3 +319,14 @@ p{
     }
 }
 
+@media screen and (max-width:400px) {
+    #esportEvent,#categoryEvent,#aboutEvent{
+        bottom: 10%;
+        margin-bottom: 5px;
+        font-size: 5vw;
+        left: 40%;
+    }
+    #aboutEvent{
+        left: 36%;
+    }
+}
