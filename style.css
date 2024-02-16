@@ -47,7 +47,10 @@ main{
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 .nav-link.active{
 	color: red !important;
 }
@@ -57,7 +60,10 @@ main{
 		top: 10% !important;
 		/* left: 25px !important; */
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 }
 
 body{
@@ -136,7 +142,11 @@ body{
     right: 0;
 }
 
+<<<<<<< HEAD
 #esportEvent,#categoryEvent,#aboutEvent,#brandEvent{
+=======
+#esportEvent,#categoryEvent,#aboutEvent{
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
     position: absolute;
     font-size: 3vw;
     color: #ffc200;
@@ -144,9 +154,12 @@ body{
     left: 35%;
     bottom: 23%;
 }
+<<<<<<< HEAD
 #brandEvent{
     left: 45%;
 }
+=======
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 
 #categoryEvent{
     left: 45%;
@@ -175,6 +188,11 @@ body{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-around;
+<<<<<<< HEAD
+=======
+    gap: 20px;
+
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 }
 
 .textLogo{
@@ -207,7 +225,11 @@ body{
 
 .eventDiv{
     text-align: center;
+<<<<<<< HEAD
     height: 600px;
+=======
+    height: 630px;
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 }
 
 .eventDiv1{
@@ -255,6 +277,7 @@ body{
 .h1gold{
     color: gold !important;
 }
+<<<<<<< HEAD
 .dj {
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
@@ -283,6 +306,23 @@ body{
 
 
 @media screen and (max-width:1030px){
+=======
+
+.mapDiv{
+    height: 100vh;
+}
+
+.mapDetail{
+    top: 15%;
+    right: 50px;
+}
+
+p{
+    font-size: 16px;
+}
+
+@media screen and (max-width:1200px){
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
     #sectionGrid{
         grid-template-columns: 45% 45%;
     }
@@ -293,6 +333,13 @@ body{
     .header2{
         margin-top: 10%;
     }
+<<<<<<< HEAD
+=======
+
+    .eventDiv{
+        height: 700px;
+    }
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 }
 
 @media screen and (max-width:600px){
@@ -300,15 +347,25 @@ body{
         grid-template-columns: 90%;
     }
 
+<<<<<<< HEAD
 
     .mainHeader{
         font-size: 20px;
+=======
+    .home-img{
+        height: 300px !important;
+    }
+
+    .mainHeader{
+        font-size: 16px;
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
     }
 
     .header2{
         margin-top: 20%;
     }
 
+<<<<<<< HEAD
     #esportEvent,#categoryEvent,#aboutEvent{
         bottom: 5%;
         font-size: 5vw;
@@ -318,6 +375,19 @@ body{
         left: 40%;
         bottom: 5%;
         font-size: 5vw;
+=======
+    #categoryEvent,#aboutEvent{
+        bottom: 10%;
+        margin-bottom: 10px;
+        font-size: 5vw;
+        left: 40%;
+    }
+
+   #esportEvent{
+    bottom: 10%;
+    font-size: 5vw;
+    left: 25%;
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
     }
 
 
@@ -325,3 +395,18 @@ body{
         left: 37%;
     }
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (max-width:400px) {
+    #esportEvent,#categoryEvent,#aboutEvent{
+        bottom: 10%;
+        margin-bottom: 5px;
+        font-size: 5vw;
+        left: 40%;
+    }
+    #aboutEvent{
+        left: 36%;
+    }
+}
+>>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
