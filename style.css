@@ -170,6 +170,8 @@ body{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-around;
+    gap: 20px;
+
 }
 
 .textLogo{
@@ -202,7 +204,7 @@ body{
 
 .eventDiv{
     text-align: center;
-    height: 600px;
+    height: 630px;
 }
 
 .eventDiv1{
@@ -264,7 +266,7 @@ p{
     font-size: 16px;
 }
 
-@media screen and (max-width:1030px){
+@media screen and (max-width:1200px){
     #sectionGrid{
         grid-template-columns: 45% 45%;
     }
@@ -274,6 +276,10 @@ p{
     }
     .header2{
         margin-top: 10%;
+    }
+
+    .eventDiv{
+        height: 700px;
     }
 }
 
@@ -287,18 +293,24 @@ p{
     }
 
     .mainHeader{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .header2{
         margin-top: 20%;
     }
 
-    #esportEvent,#categoryEvent,#aboutEvent{
+    #categoryEvent,#aboutEvent{
         bottom: 10%;
         margin-bottom: 10px;
         font-size: 5vw;
         left: 40%;
+    }
+
+   #esportEvent{
+    bottom: 10%;
+    font-size: 5vw;
+    left: 25%;
     }
 
 
