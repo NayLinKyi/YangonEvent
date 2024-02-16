@@ -13,9 +13,11 @@ div.navbar-collapse{
 }
 main{
     margin-top: 5%;
+
 }
 #main3{
     margin-top: 4%;
+
 }
 .home-img{
     position: relative;
@@ -28,16 +30,22 @@ main{
     color: black;
 }
 .category:hover{
+
     background-color: rgb(141, 141, 141) !important;
+
 }
 .eventCategory{
     overflow: scroll;
     column-gap: 20px;
+
     scrollbar-color: gray  black;
+
 }
 .name{
     font-family: 'Rocher';
 }
+
+
 
 .nav-link.active{
 	color: red !important;
@@ -274,6 +282,10 @@ p{
         grid-template-columns: 90%;
     }
 
+    .home-img{
+        height: 300px !important;
+    }
+
     .mainHeader{
         font-size: 20px;
     }
@@ -284,6 +296,7 @@ p{
 
     #esportEvent,#categoryEvent,#aboutEvent{
         bottom: 10%;
+        margin-bottom: 10px;
         font-size: 5vw;
         left: 40%;
     }
@@ -294,3 +307,14 @@ p{
     }
 }
 
+@media screen and (max-width:400px) {
+    #esportEvent,#categoryEvent,#aboutEvent{
+        bottom: 10%;
+        margin-bottom: 5px;
+        font-size: 5vw;
+        left: 40%;
+    }
+    #aboutEvent{
+        left: 36%;
+    }
+}
