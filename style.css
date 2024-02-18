@@ -45,12 +45,6 @@ main{
     font-family: 'Rocher';
 }
 
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 .nav-link.active{
 	color: red !important;
 }
@@ -60,10 +54,6 @@ main{
 		top: 10% !important;
 		/* left: 25px !important; */
 	}
-<<<<<<< HEAD
-
-=======
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 }
 
 body{
@@ -142,11 +132,9 @@ body{
     right: 0;
 }
 
-<<<<<<< HEAD
+
 #esportEvent,#categoryEvent,#aboutEvent,#brandEvent{
-=======
-#esportEvent,#categoryEvent,#aboutEvent{
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
+
     position: absolute;
     font-size: 3vw;
     color: #ffc200;
@@ -154,12 +142,10 @@ body{
     left: 35%;
     bottom: 23%;
 }
-<<<<<<< HEAD
 #brandEvent{
     left: 45%;
 }
-=======
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
+
 
 #categoryEvent{
     left: 45%;
@@ -188,11 +174,6 @@ body{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-around;
-<<<<<<< HEAD
-=======
-    gap: 20px;
-
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
 }
 
 .textLogo{
@@ -225,16 +206,13 @@ body{
 
 .eventDiv{
     text-align: center;
-<<<<<<< HEAD
-    height: 600px;
-=======
     height: 630px;
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
+
 }
 
 .eventDiv1{
     text-align: center;
-    height: 600px;
+    height: 630px;
 }
 
 .positionDiv2{
@@ -272,33 +250,27 @@ body{
 .faqLink:hover{
     color: gold !important;
 }
-
-
 .h1gold{
     color: gold !important;
 }
-<<<<<<< HEAD
-.dj {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2em;
-    /* position: absolute;
-    top: 50%;
-    left: 50%; */
-    transform: translate(-50%,-50%);
-    background-image: linear-gradient(gold, gold);
-    background-size: 100% 10px;
-    background-repeat: no-repeat;
-    background-position: 100% 0%;
-    color: white;
-     transition: background-size .7s, background-position .5s ease-in-out;
-  }
-  
-  .dj:hover {
-    background-size: 100% 100%;
-    background-position: 0% 100%;
-    transition: background-position .7s, background-size .5s ease-in-out;
-    color: black;
-  }
+/* #gap{
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: auto 10px;
+} */
+.pic{
+    height: 400px;
+    border-radius: 50px;
+    
+}
+.g{
+    padding: 2px 22px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    
+}
+
   /* .ar{
     box-shadow: 3px 2px 4px 6px rgb(222, 157, 27);
   } */
@@ -306,7 +278,7 @@ body{
 
 
 @media screen and (max-width:1030px){
-=======
+
 
 .mapDiv{
     height: 100vh;
@@ -322,7 +294,7 @@ p{
 }
 
 @media screen and (max-width:1200px){
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
+
     #sectionGrid{
         grid-template-columns: 45% 45%;
     }
@@ -333,13 +305,12 @@ p{
     .header2{
         margin-top: 10%;
     }
-<<<<<<< HEAD
-=======
+
 
     .eventDiv{
         height: 700px;
     }
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
+
 }
 
 @media screen and (max-width:600px){
@@ -347,25 +318,21 @@ p{
         grid-template-columns: 90%;
     }
 
-<<<<<<< HEAD
 
     .mainHeader{
         font-size: 20px;
-=======
     .home-img{
         height: 300px !important;
     }
 
     .mainHeader{
         font-size: 16px;
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
     }
 
     .header2{
         margin-top: 20%;
     }
 
-<<<<<<< HEAD
     #esportEvent,#categoryEvent,#aboutEvent{
         bottom: 5%;
         font-size: 5vw;
@@ -375,7 +342,6 @@ p{
         left: 40%;
         bottom: 5%;
         font-size: 5vw;
-=======
     #categoryEvent,#aboutEvent{
         bottom: 10%;
         margin-bottom: 10px;
@@ -387,7 +353,6 @@ p{
     bottom: 10%;
     font-size: 5vw;
     left: 25%;
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
     }
 
 
@@ -395,8 +360,6 @@ p{
         left: 37%;
     }
 }
-<<<<<<< HEAD
-=======
 
 @media screen and (max-width:400px) {
     #esportEvent,#categoryEvent,#aboutEvent{
@@ -409,4 +372,3 @@ p{
         left: 36%;
     }
 }
->>>>>>> 804f1a40c210493f2cfca5a6c5219f52e9e0667f
