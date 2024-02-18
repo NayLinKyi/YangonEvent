@@ -94,7 +94,7 @@ body {
 .header2 {
     position: relative;
     background-image: url(https://cdn.vectorstock.com/i/preview-1x/83/42/dynamic-sport-or-gaming-background-vector-45748342.jpg);
-    height: 44vw;
+    height: 66vw;
     background-attachment: cover;
     background-size: 100%;
     background-position: 0;
@@ -105,7 +105,7 @@ body {
 .header3 {
     position: relative;
     background-image: url(https://scontent.frgn10-1.fna.fbcdn.net/v/t39.30808-6/326339791_1313083629256919_3221312610980122138_n.jpg?stp=dst-jpg_p640x640&_nc_cat=104&ccb=1-7&_nc_sid=783fdb&_nc_ohc=HydRu1DAecUAX8rXntD&_nc_ht=scontent.frgn10-1.fna&oh=00_AfA4Uzpy2tN2OwjygsvpO1kx11LtHXCk9yWU6iI3sdVz1g&oe=65D22298);
-    height: 44vw;
+    height: 66vw;
     background-attachment: cover;
     background-size: 100%;
     background-position: 0;
@@ -116,7 +116,7 @@ body {
 .header4 {
     position: relative;
     background-image: url(https://images.contentstack.io/v3/assets/blt370612131b6e0756/blt908c86dfe9a4a9bf/5fad8409bfc5dd718865bcbc/WR_Cityscape_Channel_Header_Thailand_FINAL.png);
-    height: 44vw;
+    height: 66vw;
     background-attachment: cover;
     background-size: 100%;
     background-position: 0;
@@ -386,8 +386,9 @@ body {
         #aboutEvent {
             left: 37%;
         }
+        
     }
-
+}
     @media screen and (max-width:400px) {
 
         #esportEvent,
@@ -402,4 +403,18 @@ body {
         #aboutEvent {
             left: 36%;
         }
+
+        #esportEvent{
+            left: 23%;
+        }
+
+        .mainHeader {
+            font-size: 14px;
+        }
+
+        .mainHeader2{
+            font-size: 13px;
+        }
+
+
     }
