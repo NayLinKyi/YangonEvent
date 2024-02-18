@@ -147,7 +147,7 @@ body {
 #categoryEvent,
 #aboutEvent,
 #brandEvent,
-#aboutUs {
+#aboutUs,#aboutEventHot {
 
     position: absolute;
     font-size: 3vw;
@@ -170,7 +170,7 @@ body {
     left: 45%;
 }
 
-#aboutEvent {
+#aboutEvent,#aboutEventHot {
     left: 47%;
     bottom: 15%;
     font-size: 5vw;
@@ -372,7 +372,8 @@ body {
         }
 
         #categoryEvent,
-        #aboutEvent {
+        #aboutEvent, #aboutEventHot 
+         {
             bottom: 5%;
             font-size: 5vw;
             left: 40%;
@@ -386,6 +387,10 @@ body {
         #aboutEvent {
             left: 37%;
         }
+
+         #aboutEventHot {
+            margin: 0;
+         }
         
     }
 }
@@ -404,8 +409,19 @@ body {
             left: 36%;
         }
 
+        #aboutEventHot {
+            left: 42%;
+          margin: 0;
+          bottom: 20%;
+        }
+
         #esportEvent{
             left: 23%;
+        }
+
+        #aboutUs{
+            bottom: 23%;
+            margin: 0;
         }
 
         .mainHeader {
