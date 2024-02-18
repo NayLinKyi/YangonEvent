@@ -30,14 +30,23 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
               </li>
+              <div class="btn-group">
+                <a href="/event.html" type="button" class="btn">Events</a>
+                <button type="button" class="btn dropdown-toggle dropdown-toggle-split"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/sportEvents.html">Sport</a></li>
+                  <li><a class="dropdown-item" href="/festivalEvents.html">Music</a></li>
+                  <li><a class="dropdown-item" href="/esportEvents.html">Esport</a></li>
+                </ul>
+              </div>
               <li class="nav-item">
-                <a class="nav-link" href="#events-a">Events</a>
+                <a class="nav-link" href="/contact.html">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about-a">AboutUs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact-a">Contact</a>
+                <a class="nav-link" href="/FAQ.html">FAQs</a>
               </li>
             </ul>
           </div>
@@ -50,7 +59,7 @@
 
     <div class="container-fluid header3">
         <div class="position-absolute w-60 text-center mainDiv">
-            <p class="mainHeader ">Yangon Music Events</p>
+            <p class="mainHeader">Yangon Music Events</p>
             <p class="mainHeader2">--All  update music is here--</p>
         </div>
     </div>
@@ -64,278 +73,80 @@
         </section>
 
         <section id="sectionGrid">
-            <div class="eventDiv1">
-                <div class="positionDiv2"> 
-                <img class="eventImage" src="https://media.timeout.com/images/106090396/750/562/image.webp"
-                    alt="eventImage">
-                <div class="positionDiv">
-                    <div class="flexLogo">
-                        <img class="imageLogo"
-                            src="https://images.squarespace-cdn.com/content/v1/64dc619dbe364b40dfcc078d/f1e85872-2f39-4822-9ffa-5ea2d7988a27/Asset_15-removebg-preview.png?format=1500w"
-                            alt="logo">
-                        <p class="textLogo">GG Fest</p>
-                        <img class="imageLogo"
-                            src="https://images.squarespace-cdn.com/content/v1/64dc619dbe364b40dfcc078d/f1e85872-2f39-4822-9ffa-5ea2d7988a27/Asset_15-removebg-preview.png?format=1500w"
-                            alt="logo">
-                    </div>
-                    <hr>
-                    <div class="textDiv">
-                        <p class="textDate2">Febauary 2024-December 2024</p>
-                        <p class="text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                        </p>
-                        <button class="viewEvent">View Event</button>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="eventDiv1">
-                <div class="positionDiv2"> 
-                <img class="eventImage" src="https://media.timeout.com/images/103240321/750/562/image.webp"
-                    alt="eventImage">
-                <div class="positionDiv">
-                    <div class="flexLogo">
-                        <img class="imageLogo"
-                            src="data:image/png;base64,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"
-                            alt="logo">
-                        <p class="textLogo">Glastonbury</p>
-                        <img class="imageLogo"
-                            src="data:image/png;base64,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"
-                            alt="logo">
-                    </div>
-                    <hr>
-                    <div class="textDiv">
-                        <p class="textDate2">Febauary 2024-December 2024</p>
-                        <p class="text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                        </p>
-                        <button class="viewEvent">View Event</button>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="eventDiv1">
-                <div class="positionDiv2"> 
-                <img class="eventImage" src="https://media.timeout.com/images/102522870/750/562/image.webp"
-                    alt="eventImage">
-                <div class="positionDiv">
-                    <div class="flexLogo">
-                        <img class="imageLogo"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEVHcExiISmoOUe9QFDHQ1THQ1XLRFbSR1mNMDzXSVveS17NRVccCQzORlfTR1q+QVG2PU1aFLpqAAAAEXRSTlMAGTtagpOj1Sr9/7ELwOZtTCYkW2EAAAEkSURBVHgBfZIHksQgDASbHA5Y/v/as6WSN29XcBhUMxJCcD7ElEvilRpFbl3444UxuxxYqhdeCMfPCtxUb7zwZz+7Ul/0Za5J9fRir7kCjDcDy70OjwGxC/utftEkt7awHqvh0Au1S5PTvIybFBWIGjy9JMhSM4Eiv3UK2WS3IKmONonvBx7Ft8FWgaDGjAeH2D1DddAm0cQ2WwmoOs1amxahnNbJ9HoNN/azkNpOJ2868Uq2ZYxbo7aJYk1qygpFsuWCIb1amiGZwS+MKcb2LpYRrvpwXrbjiiNjgehsFZ/vbzfAZZy3VRQixpC4DmeOJ9lxp3Fnn+4tDh6Zz5u8brxwnffnvWze2A4hH8OqfGB49DLS4DOyeu3GVxx1Bn5RPd/4B8E2DcpDcofLAAAAAElFTkSuQmCC"
-                            alt="logo">
-                        <p class="textLogo">Battlefy</p>
-                        <img class="imageLogo"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEVHcExiISmoOUe9QFDHQ1THQ1XLRFbSR1mNMDzXSVveS17NRVccCQzORlfTR1q+QVG2PU1aFLpqAAAAEXRSTlMAGTtagpOj1Sr9/7ELwOZtTCYkW2EAAAEkSURBVHgBfZIHksQgDASbHA5Y/v/as6WSN29XcBhUMxJCcD7ElEvilRpFbl3444UxuxxYqhdeCMfPCtxUb7zwZz+7Ul/0Za5J9fRir7kCjDcDy70OjwGxC/utftEkt7awHqvh0Au1S5PTvIybFBWIGjy9JMhSM4Eiv3UK2WS3IKmONonvBx7Ft8FWgaDGjAeH2D1DddAm0cQ2WwmoOs1amxahnNbJ9HoNN/azkNpOJ2868Uq2ZYxbo7aJYk1qygpFsuWCIb1amiGZwS+MKcb2LpYRrvpwXrbjiiNjgehsFZ/vbzfAZZy3VRQixpC4DmeOJ9lxp3Fnn+4tDh6Zz5u8brxwnffnvWze2A4hH8OqfGB49DLS4DOyeu3GVxx1Bn5RPd/4B8E2DcpDcofLAAAAAElFTkSuQmCC"
-                            alt="logo">
-                    </div>
-                    <hr>
-                    <div class="textDiv">
-                        <p class="textDate2">Febauary 2024-December 2024</p>
-                        <p class="text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                        </p>
-                        <button class="viewEvent">View Event</button>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="eventDiv1">
-                <div class="positionDiv2"> 
-                <img class="eventImage" src="https://media.timeout.com/images/105890414/750/562/image.webp"
-                    alt="eventImage">
-                <div class="positionDiv">
-                    <div class="flexLogo">
-                        <img class="imageLogo"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEX///+51ug8jcJMl8ddos5urNQjfbguhLwceLMXc6/u9foRcK8FaqqMu9kAZacAYqUVcq6yPtp+AAAAAXRSTlMAQObYZgAAAHVJREFUeAGFjQUOwCAMAIusXuD/rx2WLL6DusE/KedSaq3PIUFGopVb2ZUHYlzxDpcCFEx6STMPbB66m+u0uYC4FyVBJAzNK9F6Sm7CjBpIGaS7xr4SSoi0OkIP1ZhXonUbYwibmxkCt5nZtObuDDFsfFjALy+4UAYwPZ358wAAAABJRU5ErkJggg=="
-                            alt="logo">
-                        <p class="textLogo">owayo</p>
-                        <img class="imageLogo"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEX///+51ug8jcJMl8ddos5urNQjfbguhLwceLMXc6/u9foRcK8FaqqMu9kAZacAYqUVcq6yPtp+AAAAAXRSTlMAQObYZgAAAHVJREFUeAGFjQUOwCAMAIusXuD/rx2WLL6DusE/KedSaq3PIUFGopVb2ZUHYlzxDpcCFEx6STMPbB66m+u0uYC4FyVBJAzNK9F6Sm7CjBpIGaS7xr4SSoi0OkIP1ZhXonUbYwibmxkCt5nZtObuDDFsfFjALy+4UAYwPZ358wAAAABJRU5ErkJggg=="
-                            alt="logo">
-                    </div>
-                    <hr>
-                    <div class="textDiv">
-                        <p class="textDate2">Febauary 2024-December 2024</p>
-                        <p class="text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                        </p>
-                        <button class="viewEvent">View Event</button>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="eventDiv1">
-                <div class="positionDiv2"> 
-                <img class="eventImage" src="https://media.timeout.com/images/106090390/750/562/image.webp"
-                    alt="eventImage">
-                <div class="positionDiv">
-                    <div class="flexLogo">
-                        <img class="imageLogo"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAZlBMVEVHcEzr9SLt9yLr9iLs9yLn8CHs9iLr9SLs9iLs9iLt9yLq9SLt9yLv+iKQlRXy/CO4vxr3/yPN1h08PwgAAABtcQ/b4h+orhiAhBImKAXi6SDJ0B1UVwyZnhYUFwPs9iKPlBTEzB3FNOsQAAAAInRSTlMAHWy+7f7/eUbW//9W/y3///87////////////////lv9dzEdwSQAAAYFJREFUeAFd0Adiq0AMBFCw2YmZif5SF3f73/+SkTY9Q9ejCDVfaXf7LqHbv7TN3xx6igKTqP71F7V7EZCQzCig//H0vxREEXkYRoKy6cvEeIqWiXlZZSD5oW01y2U7pmFZltPZALCtuCfB8XL1evGdazKKfe2TlGldIuVcj9dMz86xJy3Nyzvm8RbHLbTzL9Kx2n0dRI5HP50DveNdvfas5zFKxMkvLpnAI9q5hB1HCyHGp189M4S+6WjbPXqAA9wt7l0z4qOAcrrNxQIiUCklEaQaSAJLOoufMV03ZRJN55if99MyWBUA0eBpy+iaPcS81Y4URo7bx6/2zYskK3VoITbaM+w6ko+mhcfm+qjj5fY+rLORhxgflIco3EY73yvVISSf7aso2LUOKaVTHOfippfG07va+aN6j0bNAHVNpLXQEvrE+rwwC4SPvWaCJKZ1uZ8tyyi6/a8USnnycMuQCyG3r7R9qMVDrkA3fVFk1wUnCYg+/2Z69J3U9Y/DV+kNmDsjR1TrRSQAAAAASUVORK5CYII="
-                            alt="logo">
-                        <p class="textLogo">PUBG</p>
-                        <img class="imageLogo"
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAZlBMVEVHcEzr9SLt9yLr9iLs9yLn8CHs9iLr9SLs9iLs9iLt9yLq9SLt9yLv+iKQlRXy/CO4vxr3/yPN1h08PwgAAABtcQ/b4h+orhiAhBImKAXi6SDJ0B1UVwyZnhYUFwPs9iKPlBTEzB3FNOsQAAAAInRSTlMAHWy+7f7/eUbW//9W/y3///87////////////////lv9dzEdwSQAAAYFJREFUeAFd0Adiq0AMBFCw2YmZif5SF3f73/+SkTY9Q9ejCDVfaXf7LqHbv7TN3xx6igKTqP71F7V7EZCQzCig//H0vxREEXkYRoKy6cvEeIqWiXlZZSD5oW01y2U7pmFZltPZALCtuCfB8XL1evGdazKKfe2TlGldIuVcj9dMz86xJy3Nyzvm8RbHLbTzL9Kx2n0dRI5HP50DveNdvfas5zFKxMkvLpnAI9q5hB1HCyHGp189M4S+6WjbPXqAA9wt7l0z4qOAcrrNxQIiUCklEaQaSAJLOoufMV03ZRJN55if99MyWBUA0eBpy+iaPcS81Y4URo7bx6/2zYskK3VoITbaM+w6ko+mhcfm+qjj5fY+rLORhxgflIco3EY73yvVISSf7aso2LUOKaVTHOfippfG07va+aN6j0bNAHVNpLXQEvrE+rwwC4SPvWaCJKZ1uZ8tyyi6/a8USnnycMuQCyG3r7R9qMVDrkA3fVFk1wUnCYg+/2Z69J3U9Y/DV+kNmDsjR1TrRSQAAAAASUVORK5CYII="
-                            alt="logo">
-                    </div>
-                    <hr>
-                    <div class="textDiv">
-                        <p class="textDate2">Febauary 2024-December 2024</p>
-                        <p class="text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                        </p>
-                        <button class="viewEvent">View Event</button>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-            <div class="eventDiv1">
-                <div class="positionDiv2"> 
-                <img class="eventImage" src="https://media.timeout.com/images/103815149/750/562/image.webp"
-                    alt="eventImage">
-                <div class="positionDiv">
-                    <div class="flexLogo">
-                        <img class="imageLogo"
-                            src="https://wstatic-prod.pubgesports.com/web/live/main_bff34a2/img/3bb9932.png"
-                            alt="logo">
-                        <p class="textLogo">Foki</p>
-                        <img class="imageLogo"
-                            src="https://wstatic-prod.pubgesports.com/web/live/main_bff34a2/img/3bb9932.png"
-                            alt="logo">
-                    </div>
-                    <hr>
-                    <div class="textDiv">
-                        <p class="textDate2">Febauary 2024-December 2024</p>
-                        <p class="text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                            nisi ut
-                        </p>
-                        <button class="viewEvent">View Event</button>
-                    </div>
-                </div>
-            </div>
-            </div>
-            
-            
-        </section>
-    </div>
-
-    <footer id="contact-a" class="container-fluid text-bg-dark p-3">
-      <div class="grid">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Need Help?</h3>
-            <a href="#" class="btn btn-light container-fluid mb-2 text-start"><i class="fa-solid fa-star"></i> Support
-              and FAQs</a>
-            <a href="#" class="btn btn-light container-fluid mb-2 text-start"><i class="fa-solid fa-star"></i> Ads and
-              listing</a>
-            <a href="#" class="btn btn-light container-fluid text-start"><i class="fa-solid fa-star"></i> Gift card</a>
-          </div>
-  
-          <div class="col-md-4">
-            <h3>Connect With Us</h3>
-            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="btn btn-light container-fluid mb-2 text-start"><i class="fa-solid fa-star"></i> Email
-            </a>
-            <a href="https://www.facebook.com" target="_blank" class="btn btn-light container-fluid mb-2 text-start"><i class="fa-solid fa-star"></i>
-              Facebook</a>
-            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank" class="btn btn-light container-fluid mb-2 text-start"><i class="fa-solid fa-star"></i>
-              Instagram</a>
-            <a href="https://twitter.com/i/flow/login" target="_blank" class="btn btn-light container-fluid text-start"><i class="fa-solid fa-star"></i> Twitter</a>
-          </div>
-  
-          <div class="col-md-4">
-            <h3>Important Information</h3>
-            <button class="btn btn-light container-fluid mb-2 text-start" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-star"></i> Term and
-              conditions</button>
-            <button href="#" class="btn btn-light container-fluid mb-2 text-start" data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="fa-solid fa-star"></i> Privacy
-              Policy</button>
-            <button href="#" class="btn btn-light container-fluid mb-2 text-start" data-bs-toggle="modal" data-bs-target="#exampleModal3"><i class="fa-solid fa-star"></i> Cookies</button>
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="https://media.timeout.com/images/106090396/750/562/image.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">GG FEST</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-warning">View Event</a>
           </div>
         </div>
-      </div>
-      <p class="mt-3 text-center">copy right 2023</p>
-  <!-- Modal -->
-  <div class="text-dark modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="fa-regular fa-file-lines"></i> Term & Conditions</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="https://media.timeout.com/images/103240321/750/562/image.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">GG FEST</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-warning">View Event</a>
+          </div>
         </div>
-        <div class="modal-body">
-          <h4>Terms</h4>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae amet maxime doloremque officia dolor recusandae, placeat delectus tempora consectetur nesciunt iste optio iure, exercitationem expedita repellendus temporibus, blanditiis facere facilis!
-          <h4 class="mt-2">Conditions</h4>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam aspernatur quis non facere iste modi in doloremque cum, repellat, minima tenetur placeat numquam eveniet porro ducimus libero cumque optio nulla!
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="https://media.timeout.com/images/102522870/750/562/image.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">GG FEST</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-warning">View Event</a>
+          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <div class="card" style="width:100%;">
+          <img class="card-img-top" src="https://media.timeout.com/images/105890414/750/562/image.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">GG FEST</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-warning">View Event</a>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="https://media.timeout.com/images/106090390/750/562/image.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">GG FEST</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-warning">View Event</a>
+          </div>
+        </div>
+        <div class="card" style="width: 100%;">
+          <img class="card-img-top" src="https://media.timeout.com/images/103815149/750/562/image.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">GG FEST</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-warning">View Event</a>
+          </div>
+        </div>
+      </section>
   
-  <div class="text-dark modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="fa-regular fa-file-lines"></i> Privacy & Policy</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <h4>Privacy</h4>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae amet maxime doloremque officia dolor recusandae, placeat delectus tempora consectetur nesciunt iste optio iure, exercitationem expedita repellendus temporibus, blanditiis facere facilis!
-          <h4 class="mt-2">Policy</h4>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam aspernatur quis non facere iste modi in doloremque cum, repellat, minima tenetur placeat numquam eveniet porro ducimus libero cumque optio nulla!
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
+      <section>
+        <nav aria-label="AAAAAA" class="d-flex justify-content-center mt-5">
+          <ul class="pagination ps-3 pb-5">
+            <li class="page-item disabled">
+              <a class="page-link text-warning">Previous</a>
+            </li>
+            <li class="page-item active"  aria-current="page">
+              <a class="page-link text-white text-bg-warning border-warning" href="#">1</a></li>
+            <li class="page-item">
+              <a class="page-link text-warning" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link text-warning" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link text-warning" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
     </div>
-  </div>
-  
-  <div class="text-dark modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="fa-regular fa-file-lines"></i> Cookies</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae amet maxime doloremque officia dolor recusandae, placeat delectus tempora consectetur nesciunt iste optio iure, exercitationem expedita repellendus temporibus, blanditiis facere facilis!
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  
+
+    <footer class="border border-top">
+      <p class="text-white text-center h5 p-3 mb-3">&copy; copy right 2024 powered by X</p>
     </footer>
-
 
 </body>
 
