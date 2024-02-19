@@ -57,9 +57,6 @@ main {
     font-family: 'Rocher';
 }
 
-.nav-link.active {
-    color: red !important;
-}
 
 @media screen and (max-width:920px) {
     .text1 {
@@ -251,7 +248,19 @@ body {
     left: 7%;
 }
 
-
+.btn-group{
+    display: block !important;
+}
+#left-btn{
+    padding-right: 0 !important;
+    bottom: 6%;
+    font-size: 20px !important;
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+}
+#left-btn:hover{
+    color: black;
+}
 
 .faqLink {
     text-decoration: none !important;
@@ -308,12 +317,12 @@ body {
     }
 
     #aboutEvent {
-        bottom: 2%;
+        bottom: 7%;
     }
     #aboutUs{
-        font-size: 4vw;
-        bottom: 6%;
-        left: 40%;
+        font-size: 5vw;
+        margin-bottom: 3px;
+        left: 35%;
     }
 }
 
@@ -335,14 +344,18 @@ body {
     .eventDiv {
         height: 700px;
     }
-
+    #aboutUs{
+        font-size: 4vw;
+        bottom: 23%;
+        left: 40%;
+    }
 }
 
 @media screen and (max-width:700px) {
     #sectionGrid {
         grid-template-columns: 90%;
     }
-
+}
 
     .mainHeader {
         font-size: 20px;
@@ -400,6 +413,7 @@ body {
         }
 
         #aboutEvent {
-            left: 36%;
+            font-size: 5vw;
+            left: 45%;
         }
     }
