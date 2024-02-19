@@ -416,4 +416,15 @@ body {
             font-size: 5vw;
             left: 45%;
         }
+        .mainHeader{
+            font-size: 14px;
+        }
+
+        .mainHeader2{
+            font-size: 13px;
+        }
+
+        #esportEvent{
+            left: 25%;
+        }
     }
